@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: outFit;
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes FadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity:1
+  }
+}
+
+
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+ width: 7px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+ background: #f1f1f1; /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+ background: #888; /* color of the scroll thumb */
+ border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: rgb(44, 62, 44); /* color of the scroll thumb on hover */
+}

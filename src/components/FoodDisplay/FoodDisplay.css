@@ -1,0 +1,19 @@
+
+.food-display {
+    width: 100%;
+     animation: FadeIn 2s
+}
+
+.food-display h2{
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 1.2rem;
+        padding-top: 1rem;
+}
+
+.food-display .food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+    row-gap: 50px;
+    column-gap: 30px;
+}
